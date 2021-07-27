@@ -12,7 +12,7 @@
     <title>Nike React</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="" type="image/gif" />
+    <link rel="icon" href="images/shoe-icon.svg" type="image/gif" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -30,16 +30,362 @@
     <!-- Header -->
     <header>
         <!-- Navbar -->
+        <nav class="container navbar navbar-expand-lg navbar-light pb-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logo.png" alt="logo" class="img-fluid logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Top Banner -->
+        <div class="container pb-5">
+            <div class="row row-cols-1 row-cols-lg-2 gy-2 gx-5 d-flex align-items-center justify-content-between">
+                <div class="col">
+                    <div class="card h-100 border-0 bg-transparent img-fluid">
+                        <img src="images/top-banner-shoe.png" class="card-img-top" alt="shoe">
+                    </div>
+                </div>
+
+                <div class="col top-banner-text">
+                    <div class="card h-100 border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="text-uppercase">
+                                <h1 class="card-title orange-text m-0">Nike React</h1>
+                                <h1 class="card-title title-text-color m-0">Infinity Run 2</h1>
+                            </div>
+
+                            <p class="card-text normal-text-color mt-3">Nike, Inc. is an American multinational
+                                corporation
+                                that is engaged in
+                                the design, development, manufacturing, and worldwide marketing and sales.</p>
+
+                            <button class="btn btn-primary btn-lg py-3 px-4 mt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 cart-icon" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+
+                                <span>BUY NOW</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <!-- Main -->
     <main>
+        <!-- Casual Shoes Section -->
+        <section class="container py-5">
+            <h2 class="title-text-color fw-bold pb-5">CASUAL SHOES</h2>
 
+            <!-- Shoes Container -->
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <!-- Single Shoe -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="silver-bg m-3">
+                            <img src="images/casual-1.png" class="img-fluid card-img-top" alt="shoe">
+                        </div>
+
+                        <div class="card-body mx-2">
+                            <h4 class="card-title title-text-color">Nike Shoe</h4>
+
+                            <p class="card-text normal-text-color pt-2">
+                                A shoe is an item of footwear intended to protect and comfort the human foot.
+                            </p>
+
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h3 class="price orange-text fw-bold mt-4">$234</h3>
+                                <button class="btn btn-primary btn-lg py-3 px-4 mt-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 cart-icon"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                    </svg>
+
+                                    <span>BUY NOW</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Shoe -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="silver-bg m-3">
+                            <img src="images/casual-2.png" class="img-fluid card-img-top" alt="shoe">
+                        </div>
+
+                        <div class="card-body mx-2">
+                            <h4 class="card-title title-text-color">Sneakers Skate Shoe</h4>
+
+                            <p class="card-text normal-text-color pt-2">
+                                A shoe is an item of footwear intended to protect and comfort the human foot.
+                            </p>
+
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h3 class="price orange-text fw-bold mt-4">$234</h3>
+                                <button class="btn btn-primary btn-lg py-3 px-4 mt-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 cart-icon"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                    </svg>
+
+                                    <span>BUY NOW</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Shoe -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="silver-bg m-3">
+                            <img src="images/casual-3.png" class="img-fluid card-img-top" alt="shoe">
+                        </div>
+
+                        <div class="card-body mx-2">
+                            <h4 class="card-title title-text-color">Sneakers Basketball</h4>
+
+                            <p class="card-text normal-text-color pt-2">
+                                A shoe is an item of footwear intended to protect and comfort the human foot.
+                            </p>
+
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h3 class="price orange-text fw-bold mt-4">$234</h3>
+                                <button class="btn btn-primary btn-lg py-3 px-4 mt-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 cart-icon"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                    </svg>
+
+                                    <span>BUY NOW</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formal Shoes Section -->
+        <section class="container py-5">
+            <h2 class="title-text-color fw-bold pb-5">FORMAL SHOES</h2>
+
+            <!-- Shoes Container -->
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <!-- Single Shoe -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="m-3">
+                            <img src="images/formal-1.png" class="img-fluid card-img-top" alt="shoe">
+                        </div>
+
+                        <div class="card-body mx-2">
+                            <h4 class="card-title title-text-color">Prestige High-Cut Leather</h4>
+
+                            <p class="card-text normal-text-color pt-2">
+                                A shoe is an item of footwear intended to protect and comfort the human foot.
+                            </p>
+
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h3 class="price orange-text fw-bold mt-4">$234</h3>
+                                <button class="btn btn-primary btn-lg py-3 px-4 mt-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 cart-icon"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                    </svg>
+
+                                    <span>BUY NOW</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Shoe -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="m-3">
+                            <img src="images/formal-2.png" class="img-fluid card-img-top" alt="shoe">
+                        </div>
+
+                        <div class="card-body mx-2">
+                            <h4 class="card-title title-text-color">Slip-On Formal Shoe</h4>
+
+                            <p class="card-text normal-text-color pt-2">
+                                A shoe is an item of footwear intended to protect and comfort the human foot.
+                            </p>
+
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h3 class="price orange-text fw-bold mt-4">$234</h3>
+                                <button class="btn btn-primary btn-lg py-3 px-4 mt-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 cart-icon"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                    </svg>
+
+                                    <span>BUY NOW</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Shoe -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="m-3">
+                            <img src="images/formal-3.png" class="img-fluid card-img-top" alt="shoe">
+                        </div>
+
+                        <div class="card-body mx-2">
+                            <h4 class="card-title title-text-color">Slip-On Formal Shoe</h4>
+
+                            <p class="card-text normal-text-color pt-2">
+                                A shoe is an item of footwear intended to protect and comfort the human foot.
+                            </p>
+
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h3 class="price orange-text fw-bold mt-4">$234</h3>
+                                <button class="btn btn-primary btn-lg py-3 px-4 mt-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 cart-icon"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                    </svg>
+
+                                    <span>BUY NOW</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Last Section -->
+        <section class="container last-section py-5">
+            <div class="row g-4">
+                <!-- List Container -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                    <!-- Single List -->
+                    <div class="card border-0 mb-4">
+                        <div class="card p-3 border-0 shadow">
+                            <div
+                                class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row align-items-center justify-content-around">
+                                <div>
+                                    <img src="images/image 12.png" class="img-fluid icon" alt="shop">
+                                </div>
+
+                                <div class="list-text">
+                                    <h4 class="title-text-color fw-bold">Find the Perfect Fit</h4>
+                                    <p class="normal-text-color m-0">
+                                        Everybody is different, which is why we
+                                    </p>
+
+                                    <p class="normal-text-color m-0">
+                                        offer styles for every body.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single List -->
+                    <div class="card border-0 mb-4">
+                        <div class="card p-3 border-0 shadow">
+                            <div
+                                class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row align-items-center justify-content-around">
+                                <div>
+                                    <img src="images/image 13.png" class="img-fluid icon" alt="box">
+                                </div>
+
+                                <div>
+                                    <h4 class="title-text-color fw-bold">Free Exchanges</h4>
+                                    <p class="normal-text-color m-0">
+                                        One of the many reasons you can shop
+                                    </p>
+
+                                    <p class="normal-text-color m-0">
+                                        with peace of mind.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single List -->
+                    <div class="card border-0">
+                        <div class="card p-3 border-0 shadow">
+                            <div
+                                class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row align-items-center justify-content-around">
+                                <div>
+                                    <img src="images/image 14.png" class="img-fluid icon" alt="shop">
+                                </div>
+
+                                <div>
+                                    <h4 class="title-text-color fw-bold">Contact Our Seller</h4>
+                                    <p class="normal-text-color m-0">
+                                        Everybody is different, which is why we
+                                    </p>
+
+                                    <p class="normal-text-color m-0">
+                                        literally what we pay them for.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                    <div class="card h-100 border-0">
+                        <img src="images/last-sec.png" class="img-fluid card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
-    <footer class="text-center">
-        <small>Copyright &copy; 2021 built with <span>&hearts;</span> by Md.
+    <footer class="text-center p-3">
+        <small>Copyright &copy; 2021 built with <span class="text-danger">&hearts;</span> by Md.
             Rifat
             Islam</small>
     </footer>

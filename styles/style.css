@@ -2,3 +2,177 @@
 body {
     font-family: 'Poppins', sans-serif;;
 }
+
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.cart-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.btn-primary {
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.price {
+    font-size: 36px;
+}
+
+.orange-text {
+    color: #FA804C;;
+}
+
+.title-text-color {
+    color: #363958;
+}
+
+.normal-text-color {
+    color: #3E3E3E;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.silver-bg {
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+/* Header CSS */
+header {
+    background-color: #FFF9F4;
+}
+
+/* Navbar CSS */
+.navbar-light .navbar-nav .nav-link {
+    color: #3C3C3C;
+    margin-left: 57px;
+}
+
+.logo {
+    width: 291.11px;
+    height: 39.27px;
+}
+
+/* Last Section CSS */
+.last-section p {
+    font-size: 14px;
+}
+
+.icon {
+    width: 78px;
+    height: 82px;
+}
+
+/* Footer CSS */
+footer {
+    background-color: #FFF9F4;
+}
+/* Responsive CSS */
+@media only screen and (max-width: 576px) {
+    .logo {
+        width: 180px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .top-banner-text {
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        font-size: 10px;
+    }
+
+    .price {
+        font-size: 30px;
+    }
+
+    .list-text {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .last-section p {
+        font-size: 10px;
+    }
+
+    footer small {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .top-banner-text {
+        margin-top: 30px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .list-text {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .top-banner-text {
+        margin-top: 40px;
+    }
+
+    .list-text {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .list-text {
+        margin-left: 10px;
+    }
+
+    .last-section p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media only screen and (min-width: 1401px) {
+}
